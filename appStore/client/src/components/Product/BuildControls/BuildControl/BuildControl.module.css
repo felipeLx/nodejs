@@ -1,0 +1,65 @@
+.BuildControl {
+    display: flex;
+    padding: 10px;
+    align-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.Buttons {
+    border-radius: 80%;
+    text-align: center;
+}
+
+/* alo */
+.DinamicFields {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+button {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10%;
+    align-content: space-between;
+}
+
+
+.BuildControl button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Less {  
+    background-color: #7c0a23;
+    color: white;
+    text-align: center;
+}
+
+.More {
+    background-color: #5C9210;
+    color: black;
+    text-align: center;
+}
+
+.Less:hover, .BuildControl .Less:active {  
+    background-color: #DAA972;
+    color: white;
+}
+
+.More:hover,.BuildControl .More:active {
+    background-color: #99703F;
+    color: white;
+}

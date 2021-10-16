@@ -1,0 +1,35 @@
+.Product {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Product {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Product {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Product {
+        width: 700px;
+        height: 600px;
+    }
+}
+
+.Buttons {
+    text-align: center;
+    padding: 10 0px;
+}

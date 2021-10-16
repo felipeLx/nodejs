@@ -1,0 +1,15 @@
+.content {
+    margin-top: 60px;
+    padding-bottom: 65px; 
+    background-color: #40bad5;
+    width: 100%;
+}
+
+.main-content {
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    
+    min-height: 500px;
+}

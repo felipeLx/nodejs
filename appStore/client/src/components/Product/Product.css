@@ -1,0 +1,88 @@
+.product {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    align-content: flex-end;
+    background-color: #40bad5;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .product {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .product {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .product {
+        width: 700px;
+        height: 600px;
+    }
+}
+
+.Buttons {
+    text-align: center;
+    padding: 10 0px;
+}
+
+.image-product {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    flex-shrink: 0;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.image-product::after::before {
+    box-sizing: border-box;
+}
+
+.thumb-item:hover {
+    cursor: pointer;
+}
+.men-thumb-item:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+.thumb-item:hover .image-product {
+    transform: rotateY(360deg);
+}
+.thumb-item img {
+    transition: all 0.5s ease-out 0s;
+}
+
+.cart-animation {
+    position: fixed;
+    width: 0px;
+    opacity: 0.8;
+    transition: right 9s, top 4s, width 2s, opacity 2s cubic-bezier(1, 1, 1, 1);
+    transform: rotateY(360deg);
+    right: 140px;
+    top: 23px;
+    border: 0.3px solid rgb(1, 5, 37);
+    z-index: 111;
+}
+
+@media (max-width: 499px) {
+    .cart-animation {
+        position: fixed;
+    width: 0px;
+    opacity: 0.8;
+    transition: left 3s, top 2s, width 2s, opacity 2s cubic-bezier(1, 1, 1, 1);
+    transform: rotateY(360deg);
+    left: 40px;
+    top: 23px;
+    border: 0.3px solid rgb(1, 5, 37);
+    z-index: 111;
+    }
+}

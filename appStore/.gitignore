@@ -1,0 +1,12 @@
+.node_modules
+node_modules
+# package.json
+# package-lock.json
+.env
+*.log
+tmp
+
+/client/.node_modules
+/client/node_modules
+/client/package.json
+/client/package-lock.json

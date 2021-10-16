@@ -1,0 +1,34 @@
+.carousel-main {
+    width: 100%;
+    background-color: #035aa6;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 0;
+    z-index: 40;
+}
+
+.my-caption {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    z-index: 40;
+    padding: 10px;
+}
+
+@media (min-height: 290px) {
+    .my-caption {
+        height: 290px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 300px) {
+    .my-caption p{
+       /* display: none; */
+       margin-top: -30px;
+    }
+}

@@ -1,0 +1,38 @@
+.button-store {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.button-store:first-of-type {
+    margin-left: 0;
+}
+
+.button-store:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.success {
+    color: #5C9210;
+}
+
+.danger {
+    color: #7c0a23;
+}
+
+.warning {
+    color: #ecdf22;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.darking {
+    color: #14161f;
+}
