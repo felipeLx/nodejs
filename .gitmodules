@@ -1,0 +1,3 @@
+[submodule "appStore"]
+	path = include/appStore
+	url = git://appStore.com/git/nodejs.git
